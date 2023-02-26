@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.first-container{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.info{
+    float: left;
+    margin: 20px;
+}
+.info img{
+    width: 150px;
+    margin-top: -10px;
+}
+.button{
+float: right;
+margin-top: 40px;
+margin-right: 40px;
+width: 200px;
+display: flex;
+}
+.button button{
+    width: 60px;
+}
+.button .first-button{
+    width: 100px;
+    height: 35px;
+    outline: 0;
+    border:0;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+}
+.button .first-button:hover{
+    background-color: silver;
+    transition: background 1s;
+    color: #333;
+    cursor: pointer;
+}
+.button .second-btn{
+    width: 80px;
+    outline: 0;
+    border: 0;
+    background-color: red;
+    color: white;
+    margin-left: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.button .second-btn:hover{
+    background-color:red;
+    transition: background 1s;
+}
+.help-container{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+  top: 80px;
+}
+.help-container h3{
+    font-size: 33px;
+    color: white;
+    text-transform: capitalize;
+}
+.search-box{
+    width: 700px;
+    height: 50px;
+   position: relative;
+   left: 36%;
+   transform: translate(-50%,-50%);
+   top: 40px;
+   background-color: white;
+   display: flex;
+   border-radius: 10px;
+}
+.search-box input{
+    width: 80%;
+    height: 100%;
+    margin-left: 20px;
+    outline: 0;
+    border: 0;
+    font-size: 18px;
+}
+.search-box i{
+    margin-left: 20px;
+    font-size: 18px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.second-container{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.second-container h3{
+    font-size: 27px;
+    color: #333;
+    cursor: pointer;
+}
+.button-sign-in .buttons-1{
+    width: 70px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+   font-size: 15px;
+}
+.button-sign-in .buttons-2{
+    width: 120px;
+    height: 40px;
+    border: 1px solid red;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: red;
+}
+.button-sign-in .buttons-2:hover{
+    background-color: red;
+    color: white;
+    transition: background 1s;
+}
+.second-container h5{
+    margin-top: 13px;
+    color: #333;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 10px;
+ font-weight: 300;}
+.container-information{
+    display: flex;
+}
+.information-container{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    margin-left: 5px;
+}
+.info-container{
+    padding: 10px;
+}
+.info-container i{
+    color: #333;
+    margin-right: 2px;
+}
+.info-container span{
+    margin-left: 20px;
+    text-transform: capitalize;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+.info-container span:hover{
+  border-bottom: 1px solid red;
+    color: red;
+}
+.third-container{
+    width: 100%;
+    height: 500px;
+    border-top: 1px solid silver;
+   
+}
+.all-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    margin: 40px 30px;
+}
+.footer-container h3{
+    text-transform: capitalize;
+    color: #222;
+    font-size: 23px;
+}
+.footer-container ul li{
+    list-style: none;
+    margin-left: 2px;
+    margin-top: 40px;
+}
+.footer-container ul li a:hover{
+    color: red;
+    border-bottom: 1px solid red;
+}
+.footer-container ul li a{
+    text-decoration: none;
+    color: #333;
+    text-transform: capitalize;  
+}
+.footer-container ul li a i{
+    float: right;
+    color: red;
+}
+.container-4{
+    width: 100%;
+    height: 70px;
+    background-color: silver;
+    padding: 20px;
+}
+.container-4 .contact{
+    display: flex;
+    padding: 7px;
+    justify-content: space-between;
+}
+.container-4 .contact h3{
+    font-size: 20px;
+    color: #333;
+    text-transform: capitalize;
+}
+.container-4 .contact .call-button{
+    width: 100px;
+    height: 30px;
+    outline: 0;
+    background-color: white;
+    margin-right: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.container-4 .contact .live-button{
+    width: 130px;
+    height: 30px;
+    outline: 0;
+    border: 1px solid black;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.container-4 .contact  .live-button:hover{
+    border: 1px solid #333;
+    transition: color 1s;
+}
+.container-4 .contact .call-button:hover{
+    border: 1px solid #333;
+}
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+footer select{
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    outline: 0;
+    background-color: transparent;
+    color: white;
+    text-transform: capitalize;
+    border: 1px solid #333;
+    border-radius: 2px;
+    cursor: pointer;
+}
+footer select:hover{
+    background-color: silver;
+    color: white;
+    transition: background 1s;
+}
+footer .some-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+footer .some-links ul li a{
+    text-decoration: none;
+    color: silver;
+    text-transform: capitalize;
+}
+footer .some-links ul li a:hover{
+    text-decoration: underline;
+}
